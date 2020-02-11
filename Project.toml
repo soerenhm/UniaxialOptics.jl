@@ -1,0 +1,13 @@
+name = "UniaxialOptics"
+uuid = "125c4ce2-3ebd-4ffc-a04a-32522bb2d7ab"
+authors = ["Søren HM"]
+version = "0.1.0"
+
+[compat]
+julia = "1.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
