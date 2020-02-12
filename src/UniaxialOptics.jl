@@ -1,7 +1,5 @@
 module UniaxialOptics
 
-greet() = print("Hello World...!")
-
 
 export
     Permittivity,
