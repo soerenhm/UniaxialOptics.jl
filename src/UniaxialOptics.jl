@@ -10,6 +10,12 @@ export
     Constant,
     Variable,
 
+    invariant,
+    wavenumber,
+    wavenumber2,
+    wavevector,
+    direction,
+
     value,
     value_xx,
     value_yy,
@@ -21,6 +27,7 @@ export
     gradient_zz
 
 
+include("invariants.jl")
 include("permittivity.jl")
 
 end # module
