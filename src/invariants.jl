@@ -1,9 +1,4 @@
 
-const c = 299792458
-
-posimag(x) = imag(x) < 0 ? -x : x
-
-
 struct PropagationInvariant
     ω  :: Float64   # frequency
     kx :: Float64   # x-momentum
